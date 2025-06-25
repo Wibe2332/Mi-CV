@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.foto {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.titulo {
+  color: #555;
+  font-style: italic;
+}
+
+h1, h2 {
+  color: #1e90ff;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.btn-tema {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.oscuro {
+  background-color: #1c1c1c;
+  color: #f5f5f5;
+}
+
+.oscuro .container {
+  background-color: #2e2e2e;
+}
+
+.oscuro a {
+  color: #66b2ff;
+}
